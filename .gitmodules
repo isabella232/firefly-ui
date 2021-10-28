@@ -1,0 +1,3 @@
+[submodule "src/modules/firestorm-ui"]
+	path = src/modules/firestorm-ui
+	url = git@github.com:kaleido-io/firestorm-ui.git
