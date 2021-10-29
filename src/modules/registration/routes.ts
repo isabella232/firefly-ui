@@ -16,10 +16,17 @@
 
 import { IRoute } from '../../core/interfaces';
 import { DataRoutes } from '../data/registration';
+import { NetworkHealthRoutes } from '../firestorm-ui/registration';
 import { HomeRoutes } from '../home/registration';
 import { NetworkMapRoutes } from '../network-map/registration';
 import { TokensRoutes } from '../tokens/registration';
 
 export const registerModuleRoutes = (): IRoute[] => {
-  return [...HomeRoutes, ...DataRoutes, ...NetworkMapRoutes, ...TokensRoutes];
+  return [
+    ...HomeRoutes,
+    ...DataRoutes,
+    ...NetworkMapRoutes,
+    ...TokensRoutes,
+    ...NetworkHealthRoutes,
+  ];
 };

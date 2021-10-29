@@ -15,6 +15,8 @@
   "keyConcepts": "Key Concepts",
   "messages": "Messages",
   "modules": "Modules",
+  "networkHealth": "Network Health",
+  "networkHealthDescription": "Check the health of the organizations in your network",
   "networkMap": "Network Map",
   "networkMapDescription": "View organizations and nodes within your network",
   "networkMembers": "Network Members",

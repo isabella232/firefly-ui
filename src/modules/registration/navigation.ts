@@ -16,6 +16,10 @@
 
 import { ModuleNav, NavItem } from '../../core/interfaces';
 import { DataAppNavItem, DataModuleNav } from '../data/registration';
+import {
+  NetworkHealthAppNavItem,
+  NetworkHealthModuleNav,
+} from '../firestorm-ui/registration';
 import { HomeAppNavItem } from '../home/registration';
 import {
   NetworkMapAppNavItem,
@@ -29,9 +33,15 @@ export const registerAppNavigationItems = (): NavItem[] => {
     NetworkMapAppNavItem,
     DataAppNavItem,
     TokensAppNavItem,
+    NetworkHealthAppNavItem,
   ];
 };
 
 export const registerModuleNavigationItems = (): ModuleNav[] => {
-  return [DataModuleNav, NetworkMapModuleNav, TokensModuleNav];
+  return [
+    DataModuleNav,
+    NetworkMapModuleNav,
+    TokensModuleNav,
+    NetworkHealthModuleNav,
+  ];
 };

@@ -15,6 +15,7 @@
 // limitations under the License.
 
 import { registerDataTranslations } from '../data/registration';
+import { registerNetworkHealthTranslations } from '../firestorm-ui/registration';
 import { registerHomeTranslations } from '../home/registration';
 import { registerNetworkMapTranslations } from '../network-map/registration';
 import { registerTokensTranslations } from '../tokens/registration';
@@ -24,4 +25,5 @@ export const registerModuleTranslations = (): void => {
   registerHomeTranslations();
   registerNetworkMapTranslations();
   registerTokensTranslations();
+  registerNetworkHealthTranslations();
 };
