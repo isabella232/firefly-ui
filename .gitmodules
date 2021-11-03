@@ -1,3 +1,6 @@
 [submodule "src/modules/firestorm-ui"]
 	path = src/modules/firestorm-ui
 	url = git@github.com:kaleido-io/firestorm-ui.git
+[submodule "src/modules/firefly-dataexchange-kaleido-enterprise-ui"]
+	path = src/modules/firefly-dataexchange-kaleido-enterprise-ui
+	url = git@github.com:kaleido-io/firefly-dataexchange-kaleido-enterprise-ui.git
